@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0" 
+        Id="77e1e4ce-2068-4a56-a11a-cad8fddcb181" 
+        solutionId="77e1e4ce-2068-4a56-a11a-cad8fddcb181" 
+        xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" 
+        name="KinectQuiz"
+        sharePointProductVersion="15.0">
+  <features>
+        <featureReference itemId="cabebc2b-e01c-4fc0-a3f1-54a9cc03f95e" />
+  </features>
+</package>

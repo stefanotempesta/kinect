@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KinectQuiz", "KinectQuiz\KinectQuiz.csproj", "{D97CA6CE-BF6F-4FEA-B765-B8F7D40F90F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KinectApi", "KinectApi\KinectApi.csproj", "{F006067D-D120-464C-98FC-EE0BEDF7A0C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuizApp", "QuizApp\QuizApp.csproj", "{F3C042DE-9BCC-4F18-8197-D7BA6AC5D964}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuizModel", "QuizModel\QuizModel.csproj", "{B4A801A8-8295-464E-9561-BA053BE5BB17}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D97CA6CE-BF6F-4FEA-B765-B8F7D40F90F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D97CA6CE-BF6F-4FEA-B765-B8F7D40F90F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D97CA6CE-BF6F-4FEA-B765-B8F7D40F90F6}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{D97CA6CE-BF6F-4FEA-B765-B8F7D40F90F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D97CA6CE-BF6F-4FEA-B765-B8F7D40F90F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D97CA6CE-BF6F-4FEA-B765-B8F7D40F90F6}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{F006067D-D120-464C-98FC-EE0BEDF7A0C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F006067D-D120-464C-98FC-EE0BEDF7A0C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F006067D-D120-464C-98FC-EE0BEDF7A0C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F006067D-D120-464C-98FC-EE0BEDF7A0C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3C042DE-9BCC-4F18-8197-D7BA6AC5D964}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3C042DE-9BCC-4F18-8197-D7BA6AC5D964}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3C042DE-9BCC-4F18-8197-D7BA6AC5D964}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3C042DE-9BCC-4F18-8197-D7BA6AC5D964}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4A801A8-8295-464E-9561-BA053BE5BB17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4A801A8-8295-464E-9561-BA053BE5BB17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4A801A8-8295-464E-9561-BA053BE5BB17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4A801A8-8295-464E-9561-BA053BE5BB17}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

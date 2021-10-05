@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KinectMouseEmulator", "KinectMouseEmulator\KinectMouseEmulator.csproj", "{CC74066B-2FC3-4126-979C-ED0722B9D945}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KinectMouseController", "KinectMouseController\KinectMouseController.csproj", "{D207BFE7-FCFC-4B80-844F-26B87437AA05}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CC74066B-2FC3-4126-979C-ED0722B9D945}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC74066B-2FC3-4126-979C-ED0722B9D945}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC74066B-2FC3-4126-979C-ED0722B9D945}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC74066B-2FC3-4126-979C-ED0722B9D945}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D207BFE7-FCFC-4B80-844F-26B87437AA05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D207BFE7-FCFC-4B80-844F-26B87437AA05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D207BFE7-FCFC-4B80-844F-26B87437AA05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D207BFE7-FCFC-4B80-844F-26B87437AA05}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="17b37365-c67c-47b2-9f02-c86cee26a5c7" name="ClassDiagram" linkedPackageId="aaef0730-4ee8-4dde-b215-637ef880233b" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="bb03b86e-9091-4777-a875-0bea54217ce0" name="MyKinectSensor" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="ed264b5a-c75a-4f11-a85d-51622967ef4d" />
+        <ownedAttributesInternal>
+          <property Id="30e7b92e-7cab-4e9b-be01-b28c2ae854ef" name="Sensor" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="7ee4d174-e1d3-465e-84d2-886c01692193" />
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="909a299f-a2a0-4532-8c74-3eea0f0df9a0" name="Start" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="172b16ed-46f7-4c81-8015-c4b672f54adc" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="adafa2f7-862a-4ede-b872-7af9494a7868" name="PostureDetector" isAbstract="true" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="e83606f7-577b-4659-afe1-cd3520fa046d" />
+        <generalsInternal>
+          <generalization Id="d2aaf735-4ceb-4fea-a534-64edff82d33d" isSubstitutable="false">
+            <classMoniker Id="1b5ebf34-635a-4bd7-bfaf-bdfd8abb8802" LastKnownName="AlgorithmicPostureDetector" />
+            <elementDefinition Id="1db331ef-8db6-48ab-ab95-4bc25d55c687" />
+          </generalization>
+        </generalsInternal>
+        <ownedAttributesInternal>
+          <property Id="458cc8d3-8fb2-4c84-98b3-3750fd5ee775" name="CurrentPosture" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="aa4d15db-b71e-4df0-a85f-6fa1b68e9803" />
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="ffbddba5-ec13-452b-9980-4c3928a5c390" name="TrackPostures" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="7c781f96-d55e-4d70-b24c-7b36d34e02e7" />
+          </operation>
+          <operation Id="17efa7c7-a044-4ab7-b472-1f7292208a1b" name="PostureDetected" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="bc7c4851-e368-48a7-81be-028e7b5d7797" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="1b5ebf34-635a-4bd7-bfaf-bdfd8abb8802" name="AlgorithmicPostureDetector" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="3747df82-c2df-406c-b91c-dfe687871d50" />
+        <ownedOperationsInternal>
+          <operation Id="da51025f-744a-4415-a647-b118b32b5907" name="TrackPostures" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="83ec8a71-c5e2-4252-8344-4bd895cbd168" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="c18bd29b-7abe-4211-a87c-6b15c9fbbc52" name="MouseController" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="545aaa7e-e2e8-4416-8c01-44714cd4ca01" />
+        <ownedAttributesInternal>
+          <property Id="2442ec43-620e-4d58-97f4-dd853823ab16" name="Current" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="80a2fc75-e26b-449f-85af-ec3ac5bd0712" />
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="30204e35-a418-4f2c-b7b5-973a5c1d0ceb" name="SetHandPosition" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="e15cb6a5-da4c-4cf7-a84f-7fb0cb2d6495" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="0c5a23db-bc24-40c5-af67-cffecc9e0868" name="MySpeechRecognizer" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="02537e70-ae10-4de5-bed8-05e8997ad5bf" />
+        <ownedOperationsInternal>
+          <operation Id="ce933921-3a86-4a8b-8d35-78221fe9a7f1" name="Recognize" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="245b4033-3cc5-464f-ac39-fbb4be283c55" />
+          </operation>
+          <operation Id="b5223395-f0e4-4412-a9c8-936e8c1e177a" name="GetInstalledVoices" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="9ef407a5-2121-4ac7-8cf7-26ddf5073674" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="72b48904-350a-428f-8a3f-5dfd9a415559" name="SpeechGrammar" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="a0246f2f-65fc-4ac9-8491-e2bcef0e9091" />
+        <ownedOperationsInternal>
+          <operation Id="b8d77c85-6b43-4e4a-a9cd-d18cbb084230" name="GetGrammar" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="c84f2c5c-b94e-42ef-b3b6-d8a0a8937d14" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="aaef0730-4ee8-4dde-b215-637ef880233b" name="ModelingProject">
+    <elementDefinition Id="e1a45cb8-e66b-4ca7-8438-81d511d3ca6a" />
+    <profileInstances>
+      <packageHasProfileInstances Id="8744cccd-3e59-4b86-8e03-3f5830c85d7c">
+        <profileInstance Id="755f26d9-3b2c-43f8-bf21-078cdb6b3270" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="efbdbe94-55e7-42a9-b111-33acec960922">
+        <profileInstance Id="f0e15a4b-5514-4ee6-8b19-2de07660bce8" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</logicalClassDesignerModel>

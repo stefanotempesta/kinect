@@ -1,0 +1,43 @@
+﻿@model IEnumerable<KinectApi.Models.Answer>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Answers</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            Question
+        </th>
+        <th>
+            Answer
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.IsCorrect)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Question.Text)
+        </td>
+        <td>
+            @Html.ActionLink(item.Text, "Edit", new { id = item.Id })
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.IsCorrect)
+        </td>
+        <td>
+            @Html.ActionLink("Delete", "Delete", new { id=item.Id })
+        </td>
+    </tr>
+}
+
+</table>
